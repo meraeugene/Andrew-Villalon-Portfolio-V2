@@ -39,8 +39,12 @@ const Contact = () => {
     try {
       setLoading(true);
       // const res = await axios.post("http://localhost:3000/send-email", values);
+      // const res = await axios.post(
+      //   "https://andrew-portfolio-v2-one.vercel.app/send-email",
+      //   values
+      // );
       const res = await axios.post(
-        "https://andrew-portfolio-v2-one.vercel.app/send-email",
+        "https://andrew-portfolio-v2.onrender.com/send-email",
         values
       );
       const { data } = res;
