@@ -38,7 +38,11 @@ const Contact = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      const res = await axios.post("http://localhost:3000/send-email", values);
+      // const res = await axios.post("http://localhost:3000/send-email", values);
+      const res = await axios.post(
+        "https://andrew-villalon-portfolio-version-2-api.vercel.app/send-email",
+        values
+      );
       const { data } = res;
       setTouched({});
       setState(initState);
