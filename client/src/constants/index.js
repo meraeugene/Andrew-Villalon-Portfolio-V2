@@ -40,12 +40,6 @@ import {
   shieldLock,
   server,
   terminal,
-  benefitCard2,
-  benefitCard1,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
 } from "../assets";
 
 export const navigation = [
@@ -373,7 +367,8 @@ export const services = [
     id: "0",
     title: "Full-Stack Web Development",
     text: "Develop end-to-end web applications using the MERN stack. Create responsive and user-friendly interfaces with React for the front-end.",
-    backgroundUrl: benefitCard1,
+    backgroundUrl:
+      "https://res.cloudinary.com/dupynxkci/image/upload/v1710337164/g6y3li7lrfld2wbo7efx.svg",
     iconUrl: code,
     bg: "#34B7E1",
     imageUrl: benefitImage1,
@@ -382,7 +377,8 @@ export const services = [
     id: "1",
     title: "RESTful API Development",
     text: "Design and implement RESTful APIs using Node.js and Express.js. Enable secure communication between the front-end and back-end.",
-    backgroundUrl: benefitCard2,
+    backgroundUrl:
+      "https://res.cloudinary.com/dupynxkci/image/upload/v1710337164/dcotqm4viuqu1urizy3p.svg",
     iconUrl: api,
     imageUrl: benefitImage2,
     bg: "#E0B26D",
@@ -392,7 +388,8 @@ export const services = [
     id: "2",
     title: "Database Design and Integration",
     text: "Set up and manage MongoDB databases for efficient data storage.Implement data models and establish relationships between entities.",
-    backgroundUrl: benefitCard3,
+    backgroundUrl:
+      "https://res.cloudinary.com/dupynxkci/image/upload/v1710337164/bhpndcoembxigkfldevy.svg",
     iconUrl: database,
     bg: "#BE71D2",
     imageUrl: benefitImage3,
@@ -401,7 +398,8 @@ export const services = [
     id: "3",
     title: "User Authentication and Authorization",
     text: "Implement secure user authentication and authorization systems using technologies like JWT.Ensure the protection of user data and sensitive information.",
-    backgroundUrl: benefitCard4,
+    backgroundUrl:
+      "https://res.cloudinary.com/dupynxkci/image/upload/v1710337164/zeovqvtor0gsaqp8kedo.svg",
     iconUrl: shieldLock,
     bg: "#A3D273",
     imageUrl: benefitImage4,
@@ -411,7 +409,8 @@ export const services = [
     id: "4",
     title: "Deployment and Hosting",
     text: "Deploy applications on cloud platforms like AWS, Heroku, or others.Configure server environments and manage hosting services for seamless deployment.",
-    backgroundUrl: benefitCard5,
+    backgroundUrl:
+      "https://res.cloudinary.com/dupynxkci/image/upload/v1710337164/hgzykk4dcpkeddrwlhqm.svg",
     iconUrl: server,
     bg: "#B3675E",
     imageUrl: benefitImage5,
@@ -420,7 +419,8 @@ export const services = [
     id: "5",
     title: "Testing and Debugging ",
     text: "Conduct thorough testing, including unit testing, integration testing, and end-to-end testing.Identify and resolve bugs to ensure the stability and reliability of the application.",
-    backgroundUrl: benefitCard6,
+    backgroundUrl:
+      "https://res.cloudinary.com/dupynxkci/image/upload/v1710337164/ahmb0yeivmslnys4kzcf.svg",
     iconUrl: terminal,
     imageUrl: benefitImage6,
     bg: "#7671BD",
