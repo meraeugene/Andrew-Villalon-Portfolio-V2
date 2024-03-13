@@ -166,7 +166,7 @@ export const projects = [
   },
   {
     id: "4",
-    title: "Car Rent Website",
+    title: "Car Rental",
     text: "Explore a front-end car rental website designed to provide a seamless user experience. This platform allows users to effortlessly browse, select, and rent cars.  ",
     date: "August 2023",
     status: "done",
@@ -224,7 +224,7 @@ export const projects = [
   },
   {
     id: "8",
-    title: "REST Countries API with color theme switcher  ",
+    title: "REST Countries  ",
     text: "Where in the World is an interactive website for exploring and searching flags of different countries.A project that highlights my design and coding skills within the Frontend Mentor community.    ",
     date: "May 2023",
     status: "done",

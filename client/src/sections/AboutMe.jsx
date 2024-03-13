@@ -8,20 +8,21 @@ import { PiStudent } from "react-icons/pi";
 const AboutMe = () => {
   return (
     <Section id="about">
-      <div className="px-24">
+      <div className="px-5 md:px-10 lg:px-16">
         <Heading title="About Me " />
 
-        <div className="flex justify-center  w-full  gap-12">
-          <div className="basis-[30%]  ">
+        <div className="flex flex-col md:flex-row justify-center  w-full  gap-8 md:gap-8">
+          <div className="md:basis-[28%] lg:basis-[30%]   ">
             <img
               src={notification1}
               alt=""
               className=" object-cover rounded-md "
+              loading="lazy"
             />
           </div>
 
-          <div className=" flex flex-col gap-8 basis-[70%]">
-            <div className="flex gap-8">
+          <div className=" flex md:flex-col flex-col-reverse gap-8 basis-full md:basis-[70%] md:gap-6">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-6">
               <div className="bg-n-9/40 p-4 flex flex-col items-center justify-center text-center basis-1/2 backdrop-blur border border-n-1/10  rounded-md">
                 <RiAwardFill size={25} />
                 <h1 className="text-n-2 mt-3 ">Experience</h1>
@@ -41,13 +42,14 @@ const AboutMe = () => {
                 </h2>
               </div>
             </div>
-            <p className="body-2   text-n-2  ">
+
+            <p className="text-base  text-n-2  ">
               Hello! My name is Andrew R. Villalon, and I have almost 2 years
               experience in FullStack Web Development. My interest in web
               development was sparked in 2022 when I created my first landing
               page website built using HTML and CSS.
             </p>
-            <LanguageTools className="hidden relative z-10  mt-2 lg:block" />
+            <LanguageTools className="relative z-10  mt-2 " />
           </div>
         </div>
       </div>

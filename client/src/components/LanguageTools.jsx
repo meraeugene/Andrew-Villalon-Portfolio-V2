@@ -18,7 +18,7 @@ const LanguageTools = ({ className }) => {
       <h5 className="tagline mb-6 text-center text-n-1/50">
         Languages, Frameworks , and Tools
       </h5>
-      <ul className="flex items-center justify-center gap-6 px-8">
+      <ul className="grid grid-cols-4 md:grid-cols-8 place-items-center gap-x-4 gap-y-8 lg:grid-cols-11  lg:gap-x-6 lg:px-16">
         <li>
           <img src={mongodbSvg} width={150} height={150} alt="icon" />
         </li>

@@ -6,7 +6,7 @@ import { responsive, frontendLibraries, backend } from "../assets";
 const Certifcations = () => {
   return (
     <Section id="certifications">
-      <div className="px-64">
+      <div className="px-5 lg:px-64">
         <Heading
           title="Certifications "
           text="Click each image  to view its full details.          "

@@ -37,18 +37,18 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-4">Andrew R. Villalon</h1>
-          <h1 className="h1 mb-16 inline-block relative">
+          <h1 className="h1  md:mb-6">Andrew R. Villalon</h1>
+          <h1 className="text-3xl md:text-5xl mb-10 md:mb-16 inline-block relative lg:text-6xl">
             Full Stack MERN Developer{" "}
             <img
               src={curve}
-              className="absolute top-full left-0 w-full xl:-mt-2"
+              className="absolute top-full left-0 w-full "
               width={624}
               height={28}
               alt="Curve"
             />
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto  mb-6 md:mb-10  text-n-2 ">
             Explore my professional front-end web developer portfolio,
             showcasing my expertise in Mongoose, Express, React, Node and
             TypeScript. With a focus on visually stunning and user-friendly
@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/440]">
+              <div className="aspect-[42/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[750/435] lg:aspect-[1024/440]">
                 <img
                   src={kitchenTales}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[0%]"
@@ -109,7 +109,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <LanguageTools className="hidden relative z-10 mt-20 lg:block" />
+        <LanguageTools className=" relative z-10 mt-20 " />
       </div>
 
       <BottomLine />

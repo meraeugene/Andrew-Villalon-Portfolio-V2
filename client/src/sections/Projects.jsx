@@ -50,7 +50,7 @@ const Projects = () => {
                 }`}
                 key={item.id}
               >
-                <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+                <div className="relative p-4 md:p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                   <div className="absolute top-0 left-0 max-w-full">
                     <img
                       className="w-full"
@@ -61,22 +61,23 @@ const Projects = () => {
                     />
                   </div>
                   <div className="relative z-1">
-                    <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                    <div className="flex flex-col md:flex-row items-center gap-3  w-full  justify-between mb-[4.5rem] md:mb-20">
                       <Tagline>{item.date}</Tagline>
 
-                      <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                      <div className="flex items-center px-4 md:px-2 py-1 bg-n-1  rounded text-n-8 gap-2">
                         <img
-                          className="mr-2.5"
                           src={item.status === "done" ? check2 : loading1}
                           width={16}
                           height={16}
                           alt={status}
                         />
-                        <div className="tagline">{status}</div>
+                        <div className="w-full font-grotesk font-light text-sm md:text-[.6rem] lg:text-sm tracking-tagline uppercase">
+                          {status}
+                        </div>
                       </div>
                     </div>
 
-                    <div className="mb-10 -my-10 -mx-15">
+                    <div className="mb-6 -my-10 -mx-15">
                       <img
                         className="w-full"
                         src={item.imageUrl}
@@ -86,32 +87,35 @@ const Projects = () => {
                       />
                     </div>
                     <div className="flex items-center justify-between mb-4">
-                      <h4 className="h4 ">{item.title}</h4>
-                      <div className="flex items-center gap-4">
+                      <h4 className="text-lg lg:text-3xl">{item.title}</h4>
+                      <div className="flex items-center gap-2 ">
                         <a href={item.githubLink} target="_blank">
                           <img
                             src={github}
                             alt="github"
-                            className="w-[25px] object-cover"
+                            className="w-[20px] lg:w-[25px] object-cover"
                             loading="lazy"
                           />
                         </a>
                         <a href={item.websiteLink} target="_blank">
-                          <img src={link} alt="link" loading="lazy" />
+                          <img
+                            src={link}
+                            alt="link"
+                            loading="lazy"
+                            className="w-[20px] lg:w-[25px] object-cover"
+                          />
                         </a>
                       </div>
                     </div>
-                    <ul className="flex flex-wrap gap-x-4 gap-y-3 mb-4">
+                    <ul className="flex flex-wrap gap-x-2 gap-y-3 mb-4 lg:gap-3 lg:mb-6">
                       {item.technologies.map((tech, index) => (
                         <li
                           key={index}
                           style={{
                             backgroundColor: techColors[0][tech],
-                            padding: "0.1em 0.5em",
                             borderRadius: "0.25rem",
-                            fontSize: ".8em",
                           }}
-                          className="border border-n-1/10"
+                          className="border border-n-1/10 px-1 text-[.60rem] lg:text-sm lg:p-1 "
                         >
                           {tech}
                         </li>
