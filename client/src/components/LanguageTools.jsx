@@ -11,7 +11,6 @@ import {
   figmaIcon,
   git,
 } from "../assets";
-
 const LanguageTools = ({ className }) => {
   return (
     <div className={className}>
