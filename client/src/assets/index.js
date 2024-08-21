@@ -44,7 +44,7 @@ import slack from "./collaboration/slack.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import notification1 from "./notification/profile-pic.webp";
+import notification1 from "./notification/profile.jpg";
 import notification2 from "./notification/image-1.png";
 
 import benefitCard1 from "./benefits/card-1.svg";
