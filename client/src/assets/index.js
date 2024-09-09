@@ -86,6 +86,7 @@ import loop from "./loop.png";
 import responsive from "./certification/responsive.jpg";
 import frontendLibraries from "./certification/frontend-libraries.jpg";
 import backend from "./certification/backend.jpg";
+import javascript from "./certification/js.png";
 
 import api from "./benefits/api.svg";
 import code from "./benefits/code.svg";
@@ -182,4 +183,5 @@ export {
   benefitImage5,
   benefitImage6,
   timhortons,
+  javascript,
 };
