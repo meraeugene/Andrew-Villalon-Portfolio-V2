@@ -99,6 +99,8 @@ export const projects = [
       "Tailwind CSS",
       "TypeScript",
     ],
+    githubLink: "https://github.com/meraeugene/kitchen-tales",
+    websiteLink: "https://kitchen-tales.onrender.com/",
   },
   {
     id: "1",
