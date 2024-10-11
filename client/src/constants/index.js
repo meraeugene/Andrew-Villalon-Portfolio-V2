@@ -40,6 +40,7 @@ import {
   shieldLock,
   server,
   terminal,
+  studentSphere,
 } from "../assets";
 
 export const navigation = [
@@ -86,7 +87,7 @@ export const projects = [
     title: "Kitchen Tales ",
     text: "Check out a cooking website developed using the MERN (MongoDB, Express.js, React, Node.js) stack  where you can share and discover new dishes. Join a fun online community all about cooking and trying out delicious recipes!",
     date: "March 2024",
-    status: "progress",
+    status: "done",
     imageUrl: kitchenTales,
     colorful: true,
     technologies: [
@@ -128,6 +129,18 @@ export const projects = [
   },
   {
     id: "2",
+    title: "Student Sphere",
+    text: "A web application where students can view their grades and schedules, teachers can manage student grades and access their own schedules, and administrators can manage user accounts.",
+    date: "June 2024",
+    status: "done",
+    imageUrl: studentSphere,
+    colorful: true,
+    technologies: ["React", "PHP", "ShadCN Ui", "Tailwind CSS"],
+    githubLink: "https://github.com/meraeugene/student-sphere",
+    websiteLink: "",
+  },
+  {
+    id: "3",
     title: "Game Verse",
     text: "Browse a gaming e-commerce platform to discover and purchase games for PS4, PC, PS5, and Xbox. Explore the selection and shop for your favorite titles across these gaming platforms.    ",
     date: "December 2023",
@@ -147,7 +160,7 @@ export const projects = [
     websiteLink: "https://gameverseph.vercel.app/",
   },
   {
-    id: "3",
+    id: "4",
     title: "Film Faves",
     text: "A Film sharing web appliation developed using the MERN (MongoDB, Express.js, React, Node.js) stack allowing users to create accounts and recommend films. ",
     date: "November 2023",
@@ -167,7 +180,7 @@ export const projects = [
     websiteLink: "https://filmfaves.vercel.app/",
   },
   {
-    id: "4",
+    id: "5",
     title: "Car Rental",
     text: "Explore a front-end car rental website designed to provide a seamless user experience. This platform allows users to effortlessly browse, select, and rent cars.  ",
     date: "August 2023",
@@ -189,7 +202,7 @@ export const projects = [
     websiteLink: "https://car-rent-website-andrew.vercel.app/",
   },
   {
-    id: "5",
+    id: "6",
     title: "Elegant Vibes",
     text: "Discover a stylish fashion landing page with the latest trends and curated collections. Enjoy easy browsing and find trendy clothes and accessories effortlessly.    ",
     date: "August 2023",
@@ -201,7 +214,7 @@ export const projects = [
     websiteLink: "https://fashion-ecommerce-andrew.vercel.app/",
   },
   {
-    id: "6",
+    id: "7",
     title: "Space Tourism     ",
     text: "Check out a landing page for space tourism, a cool project that highlights my design and coding skills within the Frontend Mentor community.    ",
     date: "May 2023",
@@ -213,7 +226,7 @@ export const projects = [
     websiteLink: "https://spacetourism-andrew.vercel.app/",
   },
   {
-    id: "7",
+    id: "8",
     title: "URL Shortener  ",
     text: "Check out a URL Shortener website, a cool project that highlights my design and coding skills within the Frontend Mentor community.    ",
     date: "May 2023",
@@ -225,7 +238,7 @@ export const projects = [
     websiteLink: "https://url-shortening-andrew.vercel.app/",
   },
   {
-    id: "8",
+    id: "9",
     title: "REST Countries  ",
     text: "Where in the World is an interactive website for exploring and searching flags of different countries.A project that highlights my design and coding skills within the Frontend Mentor community.    ",
     date: "May 2023",
@@ -237,7 +250,7 @@ export const projects = [
     websiteLink: "https://where-in-the-world-arem.vercel.app/",
   },
   {
-    id: "9",
+    id: "10",
     title: "Loopstudios ",
     text: "Take a look at the cool landing page design for Loopstudios. Check out the awesome layout that highlights Loopstudios' special stuff. A project that shows off my design and coding skills for the Frontend Mentor community.    ",
     date: "May 2023",

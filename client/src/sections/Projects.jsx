@@ -29,6 +29,7 @@ const Projects = () => {
       Express: "#0D0D0D",
       "Formik Yup": "#08A5F3",
       HTML: "#E5532D",
+      PHP: "#797db5",
     },
   ];
   return (

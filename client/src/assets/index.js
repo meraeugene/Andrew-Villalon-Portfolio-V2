@@ -82,6 +82,7 @@ import space from "./space.png";
 import urlshortening from "./urlshortening.png";
 import flags from "./flags.png";
 import loop from "./loop.png";
+import studentSphere from "./sp.png";
 
 import responsive from "./certification/responsive.jpg";
 import frontendLibraries from "./certification/frontend-libraries.jpg";
@@ -184,4 +185,5 @@ export {
   benefitImage6,
   timhortons,
   javascript,
+  studentSphere,
 };
