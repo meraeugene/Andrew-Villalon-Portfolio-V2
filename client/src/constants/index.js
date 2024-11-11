@@ -41,6 +41,7 @@ import {
   server,
   terminal,
   studentSphere,
+  zerca,
 } from "../assets";
 
 export const navigation = [
@@ -82,6 +83,26 @@ export const brainwaveServices = [
 export const brainwaveServicesIcons = [disc02, chromecast];
 
 export const projects = [
+  {
+    id: "99",
+    title: "Zerca FARS (Feedback and Review System) ",
+    text: "I developed a website where users can submit reviews and feedback on Zerca Laundry Services, including the ability to add photos and rate services with a star rating system. This project was tailored to the client's specifications and completed within a three-day timeframe.",
+    date: "October 2024",
+    status: "done",
+    imageUrl: zerca,
+    colorful: true,
+    technologies: [
+      "MongoDB",
+      "Express",
+      "React",
+      "NodeJS",
+      "AWS",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    githubLink: "https://github.com/meraeugene/fars-v1",
+    websiteLink: "https://fars-v1.onrender.com/",
+  },
   {
     id: "0",
     title: "Kitchen Tales ",

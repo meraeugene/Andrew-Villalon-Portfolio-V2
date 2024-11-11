@@ -25,6 +25,7 @@ import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import zerca from "./zerca.png";
 
 import curve from "./hero/curve.png";
 import kitchenTales from "./hero/kitchenTales.png";
@@ -186,4 +187,5 @@ export {
   timhortons,
   javascript,
   studentSphere,
+  zerca,
 };
