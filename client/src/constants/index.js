@@ -42,6 +42,7 @@ import {
   terminal,
   studentSphere,
   zerca,
+  fortify,
 } from "../assets";
 
 export const navigation = [
@@ -83,6 +84,18 @@ export const brainwaveServices = [
 export const brainwaveServicesIcons = [disc02, chromecast];
 
 export const projects = [
+  {
+    id: "98",
+    title: "URL-Fortify",
+    text: "URL-Fortify is a powerful tool designed to detect and intercept potentially malicious URLs, protecting users from phishing scams and ensuring a safe browsing experience. It has two features: URL input and image OCR, which can capture URLs from images.",
+    date: "Decemebr 2024",
+    status: "done",
+    imageUrl: fortify,
+    colorful: true,
+    technologies: ["NEXTJS", "Tailwind CSS", "TypeScript"],
+    githubLink: "https://github.com/meraeugene/url-fortify",
+    websiteLink: "https://url-fortify.vercel.app/",
+  },
   {
     id: "99",
     title: "Zerca FARS (Feedback and Review System) ",

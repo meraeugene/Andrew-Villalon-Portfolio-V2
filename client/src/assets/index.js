@@ -99,11 +99,13 @@ import terminal from "./benefits/terminal.svg";
 
 import github from "./github.svg";
 import link from "./link.svg";
+import fortify from "./fortify.png";
 
 export {
   github,
   check,
   link,
+  fortify,
   api,
   code,
   server,
