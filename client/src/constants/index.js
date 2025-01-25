@@ -88,7 +88,7 @@ export const projects = [
     id: "98",
     title: "URL-Fortify",
     text: "URL-Fortify is a powerful tool designed to detect and intercept potentially malicious URLs, protecting users from phishing scams and ensuring a safe browsing experience. It has two features: URL input and image OCR, which can capture URLs from images.",
-    date: "Decemebr 2024",
+    date: "December 2024",
     status: "done",
     imageUrl: fortify,
     colorful: true,
