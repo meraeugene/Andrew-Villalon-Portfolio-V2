@@ -1,4 +1,4 @@
-import { curve, heroBackground, kitchenTales } from "../assets";
+import { curve, heroBackground, fortify } from "../assets";
 import Button from "../components/Button";
 import Section from "../components/Section";
 import {
@@ -66,7 +66,7 @@ const Hero = () => {
 
               <div className="aspect-[42/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[750/435] lg:aspect-[1024/440]">
                 <img
-                  src={kitchenTales}
+                  src={fortify}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[0%]"
                   width={1024}
                   height={480}

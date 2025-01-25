@@ -8,7 +8,7 @@ const Generating = ({ className }) => {
       } text-xs md:text-base`}
     >
       <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-      I’m currently working on Kitchen Tales Website
+      I’m currently working on URL-Fortify website.
     </div>
   );
 };
