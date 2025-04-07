@@ -1,4 +1,4 @@
-import { notification1 } from "../assets";
+import { profile } from "../assets";
 import Heading from "../components/Heading";
 import LanguageTools from "../components/LanguageTools";
 import Section from "../components/Section";
@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="flex flex-col md:flex-row justify-center  w-full  gap-8 md:gap-8">
           <div className="md:basis-[28%] lg:basis-[30%]   ">
             <img
-              src={notification1}
+              src={profile}
               alt=""
               className=" object-cover rounded-md "
               loading="lazy"
@@ -27,7 +27,7 @@ const AboutMe = () => {
                 <RiAwardFill size={25} />
                 <h1 className="text-n-2 mt-3 ">Experience</h1>
                 <h2 className="text-sm mt-2">
-                  2 years+ Full Stack MERN Developer
+                  3 years+ Full Stack MERN Developer
                 </h2>
                 <h2 className="text-sm mt-1">Front-End Developer Freelancer</h2>
               </div>
@@ -44,7 +44,7 @@ const AboutMe = () => {
             </div>
 
             <p className="text-base  text-n-2  ">
-              Hello! My name is Andrew R. Villalon, and I have almost 2 years
+              Hello! My name is Andrew R. Villalon, and I have 3 years
               experience in FullStack Web Development. My interest in web
               development was sparked in 2022 when I created my first landing
               page website built using HTML and CSS.

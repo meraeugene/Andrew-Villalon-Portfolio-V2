@@ -47,6 +47,7 @@ import stars from "./pricing/stars.svg";
 
 import notification1 from "./notification/profile.jpg";
 import notification2 from "./notification/image-1.png";
+import profile from "./profile.webp";
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -190,4 +191,5 @@ export {
   javascript,
   studentSphere,
   zerca,
+  profile,
 };
