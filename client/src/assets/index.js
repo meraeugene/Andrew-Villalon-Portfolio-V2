@@ -4,6 +4,7 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
+import quest from "./quest.png";
 
 import mongodb from "./mongodb.png";
 import mongodbSvg from "./mongodb.svg";
@@ -101,9 +102,13 @@ import terminal from "./benefits/terminal.svg";
 import github from "./github.svg";
 import link from "./link.svg";
 import fortify from "./fortify.png";
+import phplogo from "./phplogo.png";
+import sunnyside from "./sunnyside.png";
+import pet from "./pet.png";
 
 export {
   github,
+  phplogo,
   check,
   link,
   fortify,
@@ -129,6 +134,7 @@ export {
   grid,
   icon,
   mongodb,
+  pet,
   express,
   react,
   nodejs,
@@ -191,5 +197,7 @@ export {
   javascript,
   studentSphere,
   zerca,
+  quest,
+  sunnyside,
   profile,
 };

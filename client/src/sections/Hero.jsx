@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1  md:mb-6">Andrew R. Villalon</h1>
           <h1 className="text-3xl md:text-5xl mb-10 md:mb-16 inline-block relative lg:text-6xl">
-            Full Stack MERN Developer{" "}
+            Full Stack Web Developer{" "}
             <img
               src={curve}
               className="absolute top-full left-0 w-full "

@@ -19,7 +19,7 @@ const Notification = ({ className, title }) => {
         <h6 className="mb-1 font-semibold text-base">{title}</h6>
 
         <div>
-          <h4 className="text-md text-white">Full Stack 2+ years</h4>
+          <h4 className="text-md text-white">Full Stack 3+ years</h4>
           <h4 className="text-md text-white">MERN Developer </h4>
         </div>
       </div>

@@ -27,7 +27,7 @@ const AboutMe = () => {
                 <RiAwardFill size={25} />
                 <h1 className="text-n-2 mt-3 ">Experience</h1>
                 <h2 className="text-sm mt-2">
-                  3 years+ Full Stack MERN Developer
+                  3 years+ Full Stack Web Developer
                 </h2>
                 <h2 className="text-sm mt-1">Front-End Developer Freelancer</h2>
               </div>

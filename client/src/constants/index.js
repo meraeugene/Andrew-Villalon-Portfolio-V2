@@ -43,6 +43,9 @@ import {
   studentSphere,
   zerca,
   fortify,
+  quest,
+  sunnyside,
+  pet,
 } from "../assets";
 
 export const navigation = [
@@ -84,6 +87,18 @@ export const brainwaveServices = [
 export const brainwaveServicesIcons = [disc02, chromecast];
 
 export const projects = [
+  {
+    id: "101",
+    title: "PawConnect",
+    text: "Whether you're looking for a playful puppy, a gentle senior, or a loving kitten, we are here to help you meet your perfect match. Our mission is to connect loving homes with animals in need, creating lasting bonds that bring joy and companionship. Bootstrap and Pure PHP",
+    date: "March 2025",
+    status: "done",
+    imageUrl: pet,
+    colorful: true,
+    technologies: ["HTML", "CSS", "Vanilla JS", "PHP"],
+    githubLink: "https://github.com/meraeugene/pet-adoption",
+    websiteLink: "https://github.com/meraeugene/pet-adoption",
+  },
   {
     id: "98",
     title: "URL-Fortify",
@@ -284,6 +299,18 @@ export const projects = [
     websiteLink: "https://where-in-the-world-arem.vercel.app/",
   },
   {
+    id: "12",
+    title: "Sunnyside Landing Page",
+    text: "A bright and engaging landing page built for Sunnyside, focused on clean design and responsive layout. This project demonstrates my frontend development skills and attention to visual storytelling, created as part of a Frontend Mentor challenge.",
+    date: "May 2023",
+    status: "done",
+    imageUrl: sunnyside,
+    colorful: true,
+    technologies: ["HTML", "Vanilla JS", "CSS"],
+    githubLink: "https://github.com/meraeugene/sunnyside-landingpage",
+    websiteLink: "https://sunnyside-landingpage-teal.vercel.app/",
+  },
+  {
     id: "10",
     title: "Loopstudios ",
     text: "Take a look at the cool landing page design for Loopstudios. Check out the awesome layout that highlights Loopstudios' special stuff. A project that shows off my design and coding skills for the Frontend Mentor community.    ",
@@ -294,6 +321,18 @@ export const projects = [
     technologies: ["HTML", "Vanilla JS", "CSS"],
     githubLink: "https://github.com/meraeugene/loopstudios-landingpage",
     websiteLink: "https://loopstudios-landingpage-phi.vercel.app/",
+  },
+  {
+    id: "11",
+    title: "Quest",
+    text: "Quest Landing Page Website a vibrant and engaging travel-themed landing page designed to inspire adventure and exploration. ",
+    date: "Sep 2023",
+    status: "done",
+    imageUrl: quest,
+    colorful: true,
+    technologies: ["HTML", "Vanilla JS", "CSS"],
+    githubLink: "https://github.com/meraeugene/Quest-Website.github.io",
+    websiteLink: "https://quest-website-psi.vercel.app/",
   },
 ];
 
