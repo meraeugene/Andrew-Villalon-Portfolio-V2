@@ -5,6 +5,9 @@ import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import quest from "./quest.png";
+import gearflow from "./gearflow.png";
+import twogether from "./twogether.png";
+import hero from "./hero.png";
 
 import mongodb from "./mongodb.png";
 import mongodbSvg from "./mongodb.svg";
@@ -105,9 +108,15 @@ import fortify from "./fortify.png";
 import phplogo from "./phplogo.png";
 import sunnyside from "./sunnyside.png";
 import pet from "./pet.png";
+import nextjs from "./nextjs copy.png";
+import supabase from "./supabase.png";
+import profile2 from "./profile2.jpg";
 
 export {
   github,
+  profile2,
+  nextjs,
+  supabase,
   phplogo,
   check,
   link,
@@ -123,9 +132,12 @@ export {
   backend,
   flags,
   loop,
+  gearflow,
   urlshortening,
+  twogether,
   check2,
   space,
+  hero,
   carrent,
   elegantvibes,
   gradient,

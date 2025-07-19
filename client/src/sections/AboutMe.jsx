@@ -1,4 +1,4 @@
-import { profile } from "../assets";
+import { profile, profile2 } from "../assets";
 import Heading from "../components/Heading";
 import LanguageTools from "../components/LanguageTools";
 import Section from "../components/Section";
@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="flex flex-col md:flex-row justify-center  w-full  gap-8 md:gap-8">
           <div className="md:basis-[28%] lg:basis-[30%]   ">
             <img
-              src={profile}
+              src={profile2}
               alt=""
               className=" object-cover rounded-md "
               loading="lazy"

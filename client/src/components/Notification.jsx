@@ -20,7 +20,7 @@ const Notification = ({ className, title }) => {
 
         <div>
           <h4 className="text-md text-white">Full Stack 3+ years</h4>
-          <h4 className="text-md text-white">MERN Developer </h4>
+          <h4 className="text-md text-white">Web Developer </h4>
         </div>
       </div>
     </div>

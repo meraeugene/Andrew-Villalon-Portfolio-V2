@@ -21,6 +21,7 @@ const Projects = () => {
       RTK: "#7B51BE",
       "Chakra-UI": "#59CAC7",
       AOS: "#0F2945",
+      Supabase: "#3ECF8E",
       "Framer-Motion": "#B936C3",
       MUI: "#0883FF",
       NEXTJS: "#080808",
@@ -29,7 +30,11 @@ const Projects = () => {
       Express: "#0D0D0D",
       "Formik Yup": "#08A5F3",
       HTML: "#E5532D",
+      ZOD: "#2B7BB9",
+      Recharts: "#FF6A00",
       PHP: "#797db5",
+      Zustand: "#F0B90B",
+      SWR: "#F7B2A0",
     },
   ];
   return (
