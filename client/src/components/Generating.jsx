@@ -8,7 +8,7 @@ const Generating = ({ className }) => {
       } text-xs md:text-base`}
     >
       {/* <img className="w-5 h-5 mr-4" src={loading} alt="Loading" /> */}
-      With over 20+ Projects for clients and personal use.
+      With over 30+ Projects for clients and personal use.
     </div>
   );
 };
