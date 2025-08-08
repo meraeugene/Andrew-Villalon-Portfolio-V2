@@ -8,6 +8,7 @@ import quest from "./quest.png";
 import gearflow from "./gearflow.png";
 import twogether from "./twogether.png";
 import hero from "./hero.png";
+import unisched from "./unisched.png";
 
 import mongodb from "./mongodb.png";
 import mongodbSvg from "./mongodb.svg";
@@ -168,6 +169,7 @@ export {
   photoshop,
   protopie,
   gameverse,
+  unisched,
   filmfaves,
   raindrop,
   slack,
